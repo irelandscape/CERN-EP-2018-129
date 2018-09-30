@@ -11,7 +11,7 @@ using namespace std;
   cout << "BEGIN Initialization" << endl;
 
   Manager()->AddRegionSelection("diphoton");
-  Manager()->AddRegionSelection("diptau");
+  Manager()->AddRegionSelection("ditau");
   Manager()->AddHisto("low_pTmiss", 20, 0, 1000);
   Manager()->AddHisto("high_pTmiss", 20, 0, 1000);
   Manager()->AddHisto("eth", 20, 0, 1000);
